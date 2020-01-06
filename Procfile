@@ -1,1 +1,1 @@
-web: python3 ekip_bot.py
+worker python3 ekip_bot.py
