@@ -1,1 +1,1 @@
-worker python3 ekip_bot.py
+worker: python ekip_bot.py
