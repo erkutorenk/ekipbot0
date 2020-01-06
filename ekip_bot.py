@@ -33,12 +33,5 @@ def cevapla(message):
         bot.send_message(message[2], msg)
  
  
-def main_loop():
-    bot.polling(True)
-    while 1:
-        time.sleep(3)
- 
- 
-if __name__ == '__main__':
-    try:
-        main_loop()
+bot.polling()
+    
